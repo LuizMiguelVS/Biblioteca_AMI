@@ -1,7 +1,10 @@
 class Livro{
 
   String titulo;
-  String autor;
+  String autor; 
   int anoPublicacao;
+  bool emprestado;
+
+  Livro(this.titulo, this.autor, this.anoPublicacao) : emprestado = false; 
 
 }
