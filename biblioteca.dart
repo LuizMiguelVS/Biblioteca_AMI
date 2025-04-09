@@ -1,7 +1,7 @@
 import 'livro.dart';
 import 'usuario.dart';
 
-class biblioteca{
+class Biblioteca{
 
   List<Livro> livros = []; /*Lista tem a chave definidade automaticamente 0,1,2,3...*/
   Map<String, Usuario> usuarios = {}; /*Map consegue-se definir a chave ex. String, usuário - vai ser a chave*/
