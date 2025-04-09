@@ -13,4 +13,10 @@ class biblioteca{
 
   }
 
+  void cadastrarUsuario (Usuario usuario){
+
+    usuarios[usuario.nome] = usuario;
+    print("O usuário ${usuario.nome} foi cadastrado com sucesso");
+
+  }
 }
